@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jon Miren</title>
+        <link href="https://fonts.googleapis.com/css?family=Anton%7cIndie+Flower" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"> <!--fonrawesome.com to add social media icons-->
+        <link rel="stylesheet" href="css/mainRedux.css">
+        <link rel="stylesheet" href="css/responsiveRedux.css">
+    </head>
+    <body>
+        <div class="flex_box">
+            <header id="header" class="flex_box">
+                <div id="logo_box">
+                    <img id="logo" alt="Udacity Logo" src="https://dl.dropboxusercontent.com/s/ig9l8ruw12u35lf/udacity_logo.png?dl=0" >
+                </div>
+                <div id="title_box">
+                    <h1 id="title" >
+                            Jon Miren
+                    </h1>
+                </div>
+            </header>
+                    
+                <nav id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="link_cont">
+                        <a class="navlinks" href="#">Home</a><!--hrefs are place holders-->
+                    </div>
+                    <div class="link_cont">
+                        <a class="navlinks" href="#">About</a>
+                    </div>
+                    <div class="link_cont">
+                        <a class="navlinks" href="#">Resume</a>
+                    </div>
+                    <div class="link_cont">
+                        <a class="navlinks" href="#">Contact</a>
+                    </div>    
+                </nav>
+            <main>
+                <div class="flex_box">
+                    <nav class="hammenu">
+                        <span  onclick="openNav()">&#9776;</span>
+                    </nav>
+                      <section id="hero" class="flex_box">
+                        <div class="image_wrap">
+                          <img id="hero_image" src="https://dl.dropboxusercontent.com/s/t6qh1llppg977qr/code-2434271_960_720.jpg?dl=0" alt="Close up of a text editor with HTML"> 
+                        </div>
+                    <div id="hero_banner">
+                        <h2>Journalist, Video Editor, Web Developer</h2>
+                    </div>
+                      </section>
+                </div>
+                <section id="portfolio">
+                    <div class="grid">
+                        <div id="portfolio_title_box">
+                            <h3>Featured Work</h3>
+                        </div>
+                        <article id="cont1" class="conts"> <!--This div is to turn the image and banner into a link-->
+                            <a href="#"> 
+                                    <img id="feat_img1" class="feat__imgs" src="https://dl.dropboxusercontent.com/s/rry0v13q2w1gcrf/_MG_6502.jpg?dl=0" alt="A fisherman on a pier during cloudy day">
+                                    <div id="banner1" class="banners">
+                                        <h3>Photography</h3>
+                                    </div>
+                            </a> 
+                        </article>
+                        <article id="cont2" class="conts">
+                            <a href="#"> 
+                                <img id="feat_img2" class="feat__imgs" src="https://dl.dropboxusercontent.com/s/1nv57el4cyhxzif/publica.jpg?dl=0" alt="piled books in black and white">
+                                <div id="banner2" class="banners">
+                                    <h3>Publications1</h3>
+                                </div>
+                            </a> 
+                        </article>
+                        <article id="cont3" class="conts"> 
+                             <a href="#"> 
+                                <img id="feat_img3" class="feat__imgs" src="https://dl.dropboxusercontent.com/s/zbubk54sz71wkyn/web.jpg?dl=0" alt="a word cloud in different colors with a black bakground">
+                                <div id="banner3" class="banners">
+                                    <h3>Web Dev</h3>
+                                </div>
+                            </a>     
+                        </article>
+                    </div>    
+                </section>  
+            <footer>
+                <div class="footer"> 
+                <p>Made by Jon Miren <a href="https://www.linkedin.com/in/jon-miren-aresti-olin-66826482"><i class="fab fa-linkedin"></i></a></p></div>
+            </footer>
+        </main>
+    </div> 
+        <script 
+            src="js/javascript.js"> 
+        </script>
+    </body>
+</html>

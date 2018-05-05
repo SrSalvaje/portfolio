@@ -1,0 +1,228 @@
+/*350*/
+@media screen and (min-width:350px){
+    /*header*/
+    #title{
+        font-size: 3.3em;
+    }
+    
+    /*hero*/
+    #hero_banner{
+        padding-top: 20px
+    }
+}
+
+/*400px*/
+@media screen and (min-width:400px){
+    /*header*/
+    #logo_box{
+        width: 20%;
+    }
+    
+    #title_box{
+        width: 80%;
+    }
+    
+    #logo{
+        max-width: 100px;
+    }
+    
+    /*hero*/
+    #hero_banner{
+        font-size:1em;
+        padding-top: 25px;
+        height: 40%;
+    }
+    
+/*featured*/
+    .banners{
+        padding-top: 5px;
+    }
+    
+    #portfolio_title_box{
+        font-size: 1.2em;
+    } 
+}
+
+/*500px*/
+@media screen and (min-width:500px){
+    /*header*/
+    #title{
+        font-size: 4em;
+    }
+    
+    /*Navmenu*/
+    .link_cont{
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+    
+    .sidenav a{
+        font-size:35px;
+    }
+    
+    .sidenav .closebtn{
+        font-size: 60px;
+    }
+    
+    /*Featured*/
+    .banners h3{
+        font-size:1.4em;
+    }
+   
+    .footer{
+        font-size: 1em;
+    }
+}
+
+/*700px*/
+@media screen and (min-width:700px){
+    /*Header*/
+    #title{
+        font-size: 4em;
+        /*top:20px;*/
+    }
+  
+    #hero_banner{
+        font-size: 1.5em;
+        }
+        /*Featured Work*/
+    #portfolio_title_box{
+            font-size: 1.8em;
+        }
+    .banners{
+            font-size: 1.4em
+        }
+     #cont2{
+            grid-column:4/10;
+    }
+    #cont3{
+            grid-column:5/10;
+            grid-row:6/11
+    }  
+}
+/*800px*/
+@media screen and (min-width:800px){
+    /*hero*/
+
+    #hero_banner{
+        font-size:1.7em;
+        padding-top:30px;
+    }
+    /*menu*/
+    .hammenu span{
+    font-size:50px;
+    }
+    .hammenu{
+         margin-bottom: 20px;
+    }
+    /*footer*/
+    .footer{
+        font-size: 1.2em;
+    }
+}
+/*900px*/
+@media screen and (min-width:900px){
+/*hero*/
+
+    #hero_banner{
+        padding-top: 38px;
+    }
+/*featured*/
+     #cont2{
+        grid-column:4/10;
+        grid-row: 4/8;
+    }
+    #cont3{
+        grid-column:6/10;
+        grid-row:7/11
+    }
+}
+/*1200*/
+@media screen and (min-width:1200px){
+    /*menu*/
+    .hammenu span{
+    font-size:70px;
+
+    }
+    .hammenu{
+         margin-bottom: 50px;
+    }
+    .sidenav a{
+        font-size:45px;
+    }
+    
+    .link_cont{
+        padding-top: 40px;
+    padding-bottom: 40px; 
+    }
+   
+    #hero_banner{
+        font-size: 2.5em;
+        padding-top: 50px;
+    }
+    
+    /*featured work*/
+    .grid{
+        display:grid;
+        grid-template-columns:1fr 400px .5fr 400px .5fr 400px 1fr; 
+        grid-template-rows: 200px 266px 200px;   
+    }
+    
+    #portfolio_title_box{
+        font-size: 3.5em;
+        padding-top: 50px;
+    }
+    
+    #cont1{
+        grid-column:2/3;
+        grid-row: 2/3;
+         z-index: 3;
+    }
+    
+    #cont2{
+        grid-column:4/5;
+        grid-row: 2/3;
+        z-index: 4;
+    }
+    
+    #cont3{
+        grid-column: 6/7;
+        grid-row: 2/3;
+        z-index: 3;
+    }
+    
+    #feat_img3{
+        height:266px;
+    }
+    
+    /*footer*/
+    .footer{
+        font-size: 1.3em;
+    }
+}
+    
+    /*1500px*/
+@media screen and (min-width:1500px){
+    .grid{
+        display: grid;
+        grid-template-columns:0.5fr 400px 1fr 400px 1fr 400px 0.5fr; 
+        grid-template-rows: 200px 266px 200px;   
+        } 
+    
+    #hero_image{
+        height:600px;
+    }
+}
+    
+    /*1700*/
+@media screen and (min-width:1700px) {
+    #hero_image{
+        max-width: 100%;
+        max-height:100%;
+    } 
+    
+    /*footer*/
+    .footer{
+        font-size: 1.5em;
+    }
+}  
