@@ -41,7 +41,7 @@ body {
 *
 */
 #header{
-    background: linear-gradient(to left, #fff,  #076585); 
+    background: linear-gradient(to left, #076585, #fff); 
     box-sizing: border-box;
     border-bottom: solid;
     border-width: 1px;
